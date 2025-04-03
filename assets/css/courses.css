@@ -1,0 +1,94 @@
+.course-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+.course-image{
+    background-color: brown; 
+    height: 200px; 
+    margin: 5px;
+}
+
+.course-title{
+    text-align: center; 
+    color: #ffff; 
+    padding-top: 40px;
+}
+.course-price{
+    color: #000000
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.course-btn{
+  background-color: #ff6600; /* Bright orange for a standout button */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.course-btn a {
+    text-decoration: none;
+}
+
+.course-btn:hover{
+    background-color: #e65c00; /* Darker shade on hover */
+}
+
+.course-btn:active{
+    background-color: #cc5200; /* Even darker shade when clicked */
+}
+
+.course-btn i {
+    font-size: 18px; /* Adjust icon size */
+}
+
+.view-course{
+    background-color: blue;
+    color: #ffff;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.view-course a {
+    color: #ffff;  
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.slider-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
