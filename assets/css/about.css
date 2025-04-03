@@ -1,0 +1,59 @@
+body {
+    background: darkgreen;
+}
+.header-container1 {
+    background: lightgreen;
+    display: flex;
+    align-content: right;
+    border-radius: 0%;
+}
+.Our-Services h1 {
+    text-align: center;
+    color: black;
+}
+.Our-Services {
+   text-align: center;
+    padding: 20px;
+    width: 60%;
+    background: pink;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.ul li {
+    text-align: left;
+    padding: 0%;
+    list-style-type: none;
+    margin: 10px;
+    line-height: 1.5;
+
+}
+.ul li::before{
+    content: "✔️";
+
+}
+.header-container2 {
+    background: lightcoral;
+    text-align: left;
+    padding:20px auto;
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    line-height: normal;
+}
+.mission{
+    padding: 0%;
+    margin: 10px;
+    text-align: center;
+}
+
+.Vision {
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+.Uvp {
+padding: 0;
+    margin: 10px;
+    text-align: center;
+}
