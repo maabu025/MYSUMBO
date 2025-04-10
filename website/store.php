@@ -26,6 +26,8 @@
     </div>
 </div>
 
+ <?php require 'partial-files/footer.html'; ?>
+        <?php require 'partial-files/script.html'; ?>
 <!-- ✅ AJAX Script -->
 <script>
 $(document).ready(function () {
