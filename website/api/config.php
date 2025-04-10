@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$db_name = "sumbo-app";
-$username = "root";
-$password = "";
+$db_name = "sumbosi4_sumbo";
+$username = "sumbosi4_Maabu025";
+$password = "Maa0592534928$$";
 
 try {
     // Create a new PDO connection
