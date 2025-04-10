@@ -1,3 +1,6 @@
+You can access the sumbo app at sumbo.site
+You can login as an admin using the username admin@example.com with password password123
+You can login as a user by using the username mohammedfrancisca661@gmail.com and password Maa0592534928$$
 # SUMBO APP
 
 SUMBO APP is a Farmer Training and Support Platform designed to equip local farmers with knowledge on sustainable agricultural practices, irrigation techniques, and post-harvest management. The platform features an AI-driven chatbot, an e-learning module, and an e-store for farmers to connect with buyers.
@@ -26,7 +29,7 @@ Before you begin, ensure you have the following installed:
 
 ```sh
 git clone https://github.com/your-github-username/SUMBO.git
-cd SUMBO
+cd MYSUMBO
 ```
 
 ---
@@ -68,10 +71,10 @@ if ($conn->connect_error) {
 
 ### 4. Running the Project
 
-1. Move the project folder (SUMBO) to `htdocs` inside the XAMPP installation directory.
+1. Move the project folder (MYSUMBO) to `htdocs` inside the XAMPP installation directory.
 2. Open a web browser and navigate to:
    ```
-   http://localhost/SUMBO/
+   http://localhost/MYSUMBO/
    ```
 3. The homepage should now load successfully.
 
@@ -80,7 +83,7 @@ if ($conn->connect_error) {
 ## Directory Structure
 
 ```
-/htdocs/SUMBO
+/htdocs/MYSUMBO
 │── /css              # Stylesheets
 │── /js               # JavaScript files
 │── /database         # Database scripts
